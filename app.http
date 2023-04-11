@@ -1,0 +1,15 @@
+GET http://localhost:3000/players/
+###
+
+GET http://localhost:3000/players/1/
+###
+
+post http://localhost:3000/players/
+Content-Type: application/json
+###
+
+PUT http://localhost:3000/players/2/
+Content-Type: application/json
+###
+
+DELETE http://localhost:3000/players/3/
